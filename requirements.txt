@@ -1,0 +1,9 @@
+streamlit
+streamlit-option-menu
+ultralytics 
+yt-dlp 
+imageio 
+imageio-ffmpeg 
+opencv-python-headless
+scikit-learn
+xgboost
