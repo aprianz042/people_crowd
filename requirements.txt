@@ -2,9 +2,10 @@ opencv-python-headless==4.9.0.80
 streamlit
 streamlit-option-menu
 ultralytics 
-yt-dlp 
+yt-dlp>=2024.04.09
 imageio 
 imageio-ffmpeg 
 ffmpeg-python
 scikit-learn
 xgboost
+numpy
