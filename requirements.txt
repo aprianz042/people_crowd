@@ -1,11 +1,13 @@
+# Streamlit app dependencies
+
+streamlit>=1.32.0
 opencv-python-headless==4.9.0.80
-streamlit
-streamlit-option-menu
-ultralytics 
 yt-dlp>=2024.04.09
-imageio 
-imageio-ffmpeg 
-ffmpeg-python
-scikit-learn
-xgboost
-numpy
+ultralytics>=8.1.0
+
+# Data science stack
+numpy>=1.24
+pandas>=2.0
+joblib>=1.3
+xgboost>=1.7
+scikit-learn>=1.2
