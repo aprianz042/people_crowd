@@ -1,11 +1,7 @@
-# Streamlit app dependencies
-
 streamlit>=1.32.0
 opencv-python-headless==4.9.0.80
 yt-dlp>=2024.04.09
 ultralytics>=8.1.0
-
-# Data science stack
 numpy>=1.24
 pandas>=2.0
 joblib>=1.3
