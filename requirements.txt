@@ -4,6 +4,7 @@ ultralytics
 yt-dlp 
 imageio 
 imageio-ffmpeg 
+ffmpeg-python
 opencv-python-headless
 scikit-learn
 xgboost
