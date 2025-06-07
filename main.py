@@ -4,16 +4,17 @@ import streamlit as st
 #st.logo("logo.png", size="large")
 
 main_page = st.Page("app.py", title="🏠 Main App")        
-predict = st.Page("predict.py", title="🧠 Prediction")    
-grafik = st.Page("grafik.py", title="📊 Grafik")          
-debug = st.Page("base.py", title="🛠️ Debug")
-DigTwin = st.Page("masking.py", title="🛠️ DigTwin") 
+#predict = st.Page("predict.py", title="🧠 Prediction")    
+#grafik = st.Page("grafik.py", title="📊 Grafik")          
+#debug = st.Page("base.py", title="🛠️ Debug")
+#DigTwin = st.Page("masking.py", title="🛠️ DigTwin") 
 
-pg = st.navigation([main_page, 
-                    predict,
-                    grafik,
-                    debug,
-                    DigTwin])
+pg = st.navigation([main_page 
+                    #predict,
+                    #grafik,
+                    #debug,
+                    #DigTwin
+                   ])
 
 st.set_page_config(page_title="Eagle Eye", 
                    page_icon="🤖",
