@@ -1,7 +1,7 @@
 import pymysql
 from datetime import datetime, time 
 
-conn = pymysql.connect(host='ipdnkalbar.ac.id', user='u1049330_unitit', password='4dumK4lba12', database='u1049330_miot')
+conn = pymysql.connect(host=host, user=user, password=pass, database=db)
 
 def insert_data(t, c):
     cursor = conn.cursor()
