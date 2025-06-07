@@ -1,0 +1,12 @@
+streamlit
+streamlit-option-menu
+ultralytics 
+yt-dlp 
+imageio 
+imageio-ffmpeg 
+opencv-python-headless
+scikit-learn
+xgboost
+pymysql==1.1.0
+python-dotenv
+google-generativeai
